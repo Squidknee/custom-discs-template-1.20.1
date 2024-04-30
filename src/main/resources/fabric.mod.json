@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "customdiscs",
+	"version": "${version}",
+	"name": "custom-discs",
+	"description": "This is a mod for fabric custom music discs",
+	"authors": [
+		"Squidknee!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/customdiscs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.syd.customdiscs.CustomDiscs"
+		],
+		"client": [
+			"net.syd.customdiscs.CustomDiscsClient"
+		],
+		"fabric-datagen": [
+			"net.syd.customdiscs.CustomDiscsDataGenerator"
+		]
+	},
+	"mixins": [
+		"customdiscs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
