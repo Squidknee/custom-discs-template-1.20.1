@@ -1,0 +1,10 @@
+{
+  "lobby_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:lobby",
+        "stream": true
+      }
+    ]
+  }
+}
