@@ -1,4 +1,28 @@
 {
-  "item.customdiscs.lobby": "Music Disc (lobby)",
-  "item.customdiscs.lobby.desc": "Sydney Jacob - Rained"
+  "item.customdiscs.lobby": "§bMusic Disc",
+  "item.customdiscs.lobby.desc": "Sydney Jacob - Rained",
+
+  "item.customdiscs.techno": "§bMusic Disc",
+  "item.customdiscs.techno.desc": "Sydney Jacob - Techno",
+
+  "item.customdiscs.cafe": "§bMusic Disc",
+  "item.customdiscs.cafe.desc": "lukrembo - Bread",
+
+  "item.customdiscs.cheese": "§bMusic Disc",
+  "item.customdiscs.cheese.desc": "lukrembo - Cheese",
+
+  "item.customdiscs.corp": "§bMusic Disc",
+  "item.customdiscs.corp.desc": "Aylex - Office",
+
+  "item.customdiscs.castle": "§bMusic Disc",
+  "item.customdiscs.castle.desc": "DarkFantasyStudio - Evidence",
+
+  "item.customdiscs.gymbattle": "§bMusic Disc",
+  "item.customdiscs.gymbattle.desc": "Leviathan_Music",
+
+  "item.customdiscs.olibattle": "§bMusic Disc",
+  "item.customdiscs.olibattle.desc": "Makai Symphon - Dragon Castle"
+
+
+
 }

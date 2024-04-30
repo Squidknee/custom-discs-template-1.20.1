@@ -17,5 +17,20 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.LOBBY);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.TECHNO);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.CHEESE);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.CAFE);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.CORP);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.GYMBATTLE);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.CASTLE);
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.OLIBATTLE);
+
     }
 }

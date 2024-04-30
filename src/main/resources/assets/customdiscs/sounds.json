@@ -6,5 +6,61 @@
         "stream": true
       }
     ]
+  },
+  "techno_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:techno",
+        "stream": true
+      }
+    ]
+  },
+  "cafe_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:cafe",
+        "stream": true
+      }
+    ]
+  },
+  "cheese_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:cheese",
+        "stream": true
+      }
+    ]
+  },
+  "corp_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:corp",
+        "stream": true
+      }
+    ]
+  },
+  "castle_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:castle",
+        "stream": true
+      }
+    ]
+  },
+  "gymbattle_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:gymbattle",
+        "stream": true
+      }
+    ]
+  },
+  "olibattle_music": {
+    "sounds": [
+      {
+        "name": "customdiscs:olibattle",
+        "stream": true
+      }
+    ]
   }
 }

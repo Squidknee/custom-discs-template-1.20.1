@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "customdiscs:lobby"
+    "customdiscs:lobby",
+    "customdiscs:techno",
+    "customdiscs:cheese",
+    "customdiscs:cafe",
+    "customdiscs:corp",
+    "customdiscs:gymbattle",
+    "customdiscs:castle",
+    "customdiscs:olibattle"
   ]
 }
