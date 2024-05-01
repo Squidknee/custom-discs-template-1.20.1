@@ -31,7 +31,24 @@ public class ModItems {
     public static final Item OLIBATTLE = registerItem("olibattle",
             new MusicDiscItem(7, ModSounds.OLIBATTLE_MUSIC, new FabricItemSettings().maxCount(1),163));
 
+    public static final Item ATLAS = registerItem("atlas", new Item(new FabricItemSettings()));
+    public static final Item GLOVE = registerItem("glove", new Item(new FabricItemSettings()));
+    public static final Item DISC = registerItem("disc", new Item(new FabricItemSettings()));
+    public static final Item INDUSTRIAL = registerItem("industrial", new Item(new FabricItemSettings()));
+    public static final Item TRANQUIL = registerItem("tranquil", new Item(new FabricItemSettings()));
+    public static final Item DISTORTION = registerItem("distortion", new Item(new FabricItemSettings()));
+    public static final Item HARMONY = registerItem("harmony", new Item(new FabricItemSettings()));
+    public static final Item EDGE = registerItem("edge", new Item(new FabricItemSettings()));
+
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries){
+        entries.add(ATLAS);
+        entries.add(GLOVE);
+        entries.add(DISC);
+        entries.add(INDUSTRIAL);
+        entries.add(TRANQUIL);
+        entries.add(DISTORTION);
+        entries.add(HARMONY);
+        entries.add(EDGE);
         entries.add(LOBBY);
         entries.add(TECHNO);
         entries.add(CAFE);

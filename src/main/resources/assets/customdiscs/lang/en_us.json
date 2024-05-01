@@ -21,8 +21,15 @@
   "item.customdiscs.gymbattle.desc": "Leviathan_Music",
 
   "item.customdiscs.olibattle": "§bMusic Disc",
-  "item.customdiscs.olibattle.desc": "Makai Symphon - Dragon Castle"
+  "item.customdiscs.olibattle.desc": "Makai Symphon - Dragon Castle",
 
-
+  "item.customdiscs.atlas": "§6Atlas",
+  "item.customdiscs.glove": "§2Glove",
+  "item.customdiscs.disc": "§7Disc",
+  "item.customdiscs.industrial": "§8Industrial",
+  "item.customdiscs.tranquil": "§1Tranquil",
+  "item.customdiscs.distortion": "§4Distortion",
+  "item.customdiscs.harmony": "§dHarmony",
+  "item.customdiscs.edge": "§5Edge"
 
 }

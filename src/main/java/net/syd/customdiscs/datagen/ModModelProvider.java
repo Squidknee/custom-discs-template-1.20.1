@@ -26,7 +26,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GYMBATTLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CASTLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.OLIBATTLE, Models.GENERATED);
-
-
     }
 }
