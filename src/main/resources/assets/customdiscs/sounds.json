@@ -23,14 +23,6 @@
       }
     ]
   },
-  "cheese_music": {
-    "sounds": [
-      {
-        "name": "customdiscs:cheese",
-        "stream": true
-      }
-    ]
-  },
   "corp_music": {
     "sounds": [
       {

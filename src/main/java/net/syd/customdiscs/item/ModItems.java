@@ -17,17 +17,14 @@ public class ModItems {
            new MusicDiscItem(7, ModSounds.LOBBY_MUSIC, new FabricItemSettings().maxCount(1),111));
     public static final Item TECHNO = registerItem("techno",
             new MusicDiscItem(7, ModSounds.TECHNO_MUSIC, new FabricItemSettings().maxCount(1),50));
-
     public static final Item CAFE = registerItem("cafe",
             new MusicDiscItem(7, ModSounds.CAFE_MUSIC, new FabricItemSettings().maxCount(1),160));
-    public static final Item CHEESE = registerItem("cheese",
-            new MusicDiscItem(7, ModSounds.CHEESE_MUSIC, new FabricItemSettings().maxCount(1),142));
     public static final Item CORP = registerItem("corp",
             new MusicDiscItem(7, ModSounds.CORP_MUSIC, new FabricItemSettings().maxCount(1),110));
     public static final Item CASTLE = registerItem("castle",
-            new MusicDiscItem(7, ModSounds.CASTLE_MUSIC, new FabricItemSettings().maxCount(1),111));
+            new MusicDiscItem(7, ModSounds.CASTLE_MUSIC, new FabricItemSettings().maxCount(1),130));
     public static final Item GYMBATTLE = registerItem("gymbattle",
-            new MusicDiscItem(7, ModSounds.GYMBATTLE_MUSIC, new FabricItemSettings().maxCount(1),180));
+            new MusicDiscItem(7, ModSounds.GYMBATTLE_MUSIC, new FabricItemSettings().maxCount(1),336));
     public static final Item OLIBATTLE = registerItem("olibattle",
             new MusicDiscItem(7, ModSounds.OLIBATTLE_MUSIC, new FabricItemSettings().maxCount(1),163));
 
@@ -52,7 +49,6 @@ public class ModItems {
         entries.add(LOBBY);
         entries.add(TECHNO);
         entries.add(CAFE);
-        entries.add(CHEESE);
         entries.add(CORP);
         entries.add(CASTLE);
         entries.add(GYMBATTLE);

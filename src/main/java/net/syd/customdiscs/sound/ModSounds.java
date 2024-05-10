@@ -10,7 +10,6 @@ public class ModSounds {
     public static final SoundEvent LOBBY_MUSIC = registerSoundEvent("lobby_music");
     public static final SoundEvent TECHNO_MUSIC = registerSoundEvent("techno_music");
     public static final SoundEvent CAFE_MUSIC = registerSoundEvent("cafe_music");
-    public static final SoundEvent CHEESE_MUSIC = registerSoundEvent("cheese_music");
     public static final SoundEvent CORP_MUSIC = registerSoundEvent("corp_music");
     public static final SoundEvent GYMBATTLE_MUSIC = registerSoundEvent("gymbattle_music");
     public static final SoundEvent CASTLE_MUSIC = registerSoundEvent("castle_music");

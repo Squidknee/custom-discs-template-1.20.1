@@ -21,8 +21,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.TECHNO);
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.CHEESE);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.CAFE);
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.CORP);
