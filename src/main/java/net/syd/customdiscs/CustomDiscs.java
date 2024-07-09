@@ -2,6 +2,7 @@ package net.syd.customdiscs;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.syd.customdiscs.item.ModItemGroups;
 import net.syd.customdiscs.item.ModItems;
 import net.syd.customdiscs.sound.ModSounds;
 import org.slf4j.Logger;
@@ -14,7 +15,7 @@ public class CustomDiscs implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
 	}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "customdiscs:shiny_voucher",
+    "customdiscs:move_voucher",
+    "customdiscs:iv_voucher",
+    "customdiscs:ev_voucher",
+    "customdiscs:enc_com_voucher",
+    "customdiscs:enc_unc_voucher",
+    "customdiscs:enc_rare_voucher",
+    "customdiscs:enc_ult_voucher"
+  ]
+}

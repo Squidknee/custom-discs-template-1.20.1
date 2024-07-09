@@ -1,3 +1,5 @@
-// 1.20.1	2024-05-01T18:58:10.4750556	custom-discs/Tags for minecraft:item
+// 1.20.1	2024-07-08T22:28:04.8823398	custom-discs/Tags for minecraft:item
 689fa7fdd5e3c81f619566854151da7ccb20f042 data\customdiscs\tags\items\badges.json
-c786ba666cf911e37d34b6fde71b31ea49bdea88 data\minecraft\tags\items\music_discs.json
+5a1629ab76e017e13ac07ff37b22990031cecf61 data\customdiscs\tags\items\casino.json
+7a2c3c67f649b2ad090b449a9ddda2b14bdf12cd data\minecraft\tags\items\music_discs.json
+3df3db419c75917c0d0b8285e9db0533b2fab8fb data\customdiscs\tags\items\vouchers.json

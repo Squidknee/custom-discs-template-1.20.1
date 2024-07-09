@@ -46,5 +46,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.HARMONY);
         getOrCreateTagBuilder(ModTags.Items.BADGE)
                 .add(ModItems.EDGE);
+        getOrCreateTagBuilder(ModTags.Items.CASINO)
+                .add(ModItems.CASINOCARD);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.SHINYVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.MOVESETVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.IVVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.EVVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.ENCCOMVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.ENCUNCVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.ENCRAREVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.ENCULTVOUCHER);
     }
 }

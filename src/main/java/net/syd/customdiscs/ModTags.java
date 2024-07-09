@@ -9,6 +9,10 @@ public class ModTags {
     public static class Items{
         public static final TagKey<Item> BADGE =
                 createTag("badges");
+        public static final TagKey<Item> VOUCHER =
+                createTag("vouchers");
+        public static final TagKey<Item> CASINO =
+                createTag("casino");
         private static TagKey<Item> createTag(String name){
             return TagKey.of(RegistryKeys.ITEM, new Identifier(CustomDiscs.MOD_ID, name));
         }

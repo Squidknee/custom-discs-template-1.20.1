@@ -1,9 +1,16 @@
-// 1.20.1	2024-05-01T18:58:10.4797924	custom-discs/Model Definitions
-2c185c85185f66f10b494120f314f9594c22b182 assets\customdiscs\models\item\cafe.json
+// 1.20.1	2024-07-08T22:28:04.8905418	custom-discs/Model Definitions
+29b3e8c1dba23fbf9e487c92d5a256fe0f6f7223 assets\customdiscs\models\item\enc_ult_voucher.json
 56bee2759b8ffbf4a9d9f38762d338a750f07f6d assets\customdiscs\models\item\techno.json
-d670466ee7ac3b16c508eaa53fe1805db2b7eb43 assets\customdiscs\models\item\cheese.json
+825bb5a88ef6b71a23f185c1f0f9f1ecd9910487 assets\customdiscs\models\item\shiny_voucher.json
 2a34044eb7f811ece1be53cb4033e24594b01798 assets\customdiscs\models\item\gymbattle.json
+76ac4772f4409c100ab262bd4f036cff8afa2f86 assets\customdiscs\models\item\enc_com_voucher.json
 61be7cba49887958d242f1b751284b66b162a472 assets\customdiscs\models\item\corp.json
-62951f6702dac3d286f4bbe4848c07cc0d0e024a assets\customdiscs\models\item\olibattle.json
 b2c625a13436f691727ae71f5f94cc18b5d675d2 assets\customdiscs\models\item\castle.json
 b819243cd01bf8387b5612a3c9668bd7f1b26055 assets\customdiscs\models\item\lobby.json
+2c185c85185f66f10b494120f314f9594c22b182 assets\customdiscs\models\item\cafe.json
+cca43b880f540871068d08938b0abac15f43bd57 assets\customdiscs\models\item\iv_voucher.json
+62951f6702dac3d286f4bbe4848c07cc0d0e024a assets\customdiscs\models\item\olibattle.json
+d4d61dd2a5679014466f3b35969c03703bc7fc70 assets\customdiscs\models\item\ev_voucher.json
+848811febf4e0d9e5bc508b0a83b66f98327d883 assets\customdiscs\models\item\enc_rare_voucher.json
+096626540e2eeb6976a7f9af79f145d8f4ecd0a7 assets\customdiscs\models\item\enc_unc_voucher.json
+7c669854977c4f1a9a091b4313f3c5ce7470457a assets\customdiscs\models\item\move_voucher.json

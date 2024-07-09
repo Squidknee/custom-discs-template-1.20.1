@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "customdiscs:atlas",
+    "customdiscs:glove",
+    "customdiscs:disc",
+    "customdiscs:industrial",
+    "customdiscs:tranquil",
+    "customdiscs:distortion",
+    "customdiscs:harmony",
+    "customdiscs:edge"
+  ]
+}

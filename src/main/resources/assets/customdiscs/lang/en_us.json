@@ -27,6 +27,19 @@
   "item.customdiscs.tranquil": "§1Tranquil",
   "item.customdiscs.distortion": "§4Distortion",
   "item.customdiscs.harmony": "§dHarmony",
-  "item.customdiscs.edge": "§5Edge"
+  "item.customdiscs.edge": "§5Edge",
+
+  "item.customdiscs.shiny_voucher": "Shiny Voucher",
+  "item.customdiscs.move_voucher": "Move Voucher",
+  "item.customdiscs.iv_voucher": "IV Voucher",
+  "item.customdiscs.ev_voucher": "EV Voucher",
+  "item.customdiscs.enc_unc_voucher": "Uncommon Encounter Voucher",
+  "item.customdiscs.enc_ult_voucher": "Ultra Rare Encounter Voucher",
+  "item.customdiscs.enc_rare_voucher": "Rare Encounter Voucher",
+  "item.customdiscs.enc_com_voucher": "Common Encounter Voucher",
+
+  "item.customdiscs.casino_card": "Casino Card",
+
+  "itemgroup.customdisc": "Custom Discs"
 
 }

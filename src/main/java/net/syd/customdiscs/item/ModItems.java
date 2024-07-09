@@ -1,5 +1,6 @@
 package net.syd.customdiscs.item;
 
+import net.fabricmc.fabric.api.blockview.v2.FabricBlockView;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -36,29 +37,23 @@ public class ModItems {
     public static final Item DISTORTION = registerItem("distortion", new Item(new FabricItemSettings()));
     public static final Item HARMONY = registerItem("harmony", new Item(new FabricItemSettings()));
     public static final Item EDGE = registerItem("edge", new Item(new FabricItemSettings()));
+    public static final Item SHINYVOUCHER = registerItem("shiny_voucher", new Item(new FabricItemSettings()));
+    public static final Item MOVESETVOUCHER = registerItem("move_voucher", new Item(new FabricItemSettings()));
+    public static final Item IVVOUCHER = registerItem("iv_voucher", new Item(new FabricItemSettings()));
+    public static final Item EVVOUCHER = registerItem("ev_voucher", new Item(new FabricItemSettings()));
+    public static final Item ENCUNCVOUCHER = registerItem("enc_unc_voucher", new Item(new FabricItemSettings()));
+    public static final Item ENCULTVOUCHER = registerItem("enc_ult_voucher", new Item(new FabricItemSettings()));
+    public static final Item ENCRAREVOUCHER = registerItem("enc_rare_voucher", new Item(new FabricItemSettings()));
+    public static final Item ENCCOMVOUCHER = registerItem("enc_com_voucher", new Item(new FabricItemSettings()));
 
-    private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries){
-        entries.add(ATLAS);
-        entries.add(GLOVE);
-        entries.add(DISC);
-        entries.add(INDUSTRIAL);
-        entries.add(TRANQUIL);
-        entries.add(DISTORTION);
-        entries.add(HARMONY);
-        entries.add(EDGE);
-        entries.add(LOBBY);
-        entries.add(TECHNO);
-        entries.add(CAFE);
-        entries.add(CORP);
-        entries.add(CASTLE);
-        entries.add(GYMBATTLE);
-        entries.add(OLIBATTLE);
-    }
+    public static final Item CASINOCARD = registerItem("casino_card", new Item(new FabricItemSettings()));
+
+
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CustomDiscs.MOD_ID, name), item);
     }
     public static void registerModItems(){
         CustomDiscs.LOGGER.info("Registering Mod Items for "+ CustomDiscs.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
     }
 }
