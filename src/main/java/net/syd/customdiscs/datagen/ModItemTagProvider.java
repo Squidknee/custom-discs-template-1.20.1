@@ -17,19 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.LOBBY);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.TECHNO);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.CAFE);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.CORP);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.GYMBATTLE);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.CASTLE);
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.OLIBATTLE);
         getOrCreateTagBuilder(ModTags.Items.BADGE)
                 .add(ModItems.ATLAS);
         getOrCreateTagBuilder(ModTags.Items.BADGE)
@@ -49,14 +37,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.CASINO)
                 .add(ModItems.CASINOCARD);
         getOrCreateTagBuilder(ModTags.Items.VOUCHER)
-                .add(ModItems.SHINYVOUCHER);
-        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
-                .add(ModItems.MOVESETVOUCHER);
-        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
-                .add(ModItems.IVVOUCHER);
-        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
-                .add(ModItems.EVVOUCHER);
-        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
                 .add(ModItems.ENCCOMVOUCHER);
         getOrCreateTagBuilder(ModTags.Items.VOUCHER)
                 .add(ModItems.ENCUNCVOUCHER);
@@ -64,5 +44,44 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.ENCRAREVOUCHER);
         getOrCreateTagBuilder(ModTags.Items.VOUCHER)
                 .add(ModItems.ENCULTVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.VOUCHER)
+                .add(ModItems.MOVEVOUCHER);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERATLAS);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERGLOVE);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERDISC);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERINDUSTRIAL);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERTRANQUIL);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERDISTORTION);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERHARMONY);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTEREDGE);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERDIAMOND);
+        getOrCreateTagBuilder(ModTags.Items.COUNTERFEIT)
+                .add(ModItems.COUNTERRELICCOIN);
+        getOrCreateTagBuilder(ModTags.Items.CASINO)
+                .add(ModItems.CASINOCOIN);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.RANGERCARD);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.GOLDGEARCARD);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.DIAMONDCHARM);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.PEARLCHARM);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.SINISTERCHARM);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.GAMMAPIN);
+        getOrCreateTagBuilder(ModTags.Items.OTHER)
+                .add(ModItems.MISSILEPIN);
     }
 }
+

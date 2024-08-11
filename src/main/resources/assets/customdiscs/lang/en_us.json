@@ -1,24 +1,6 @@
 {
-  "item.customdiscs.lobby": "§bMusic Disc",
-  "item.customdiscs.lobby.desc": "Sydney Jacob - Rained",
-
-  "item.customdiscs.techno": "§bMusic Disc",
-  "item.customdiscs.techno.desc": "Sydney Jacob - Techno",
-
-  "item.customdiscs.cafe": "§bMusic Disc",
-  "item.customdiscs.cafe.desc": "lukrembo - Bread",
-
   "item.customdiscs.corp": "§bMusic Disc",
   "item.customdiscs.corp.desc": "Aylex - Office",
-
-  "item.customdiscs.castle": "§bMusic Disc",
-  "item.customdiscs.castle.desc": "Olivroom - Renascence",
-
-  "item.customdiscs.gymbattle": "§bMusic Disc",
-  "item.customdiscs.gymbattle.desc": "Battle Theme - Leviathan_Music",
-
-  "item.customdiscs.olibattle": "§bMusic Disc",
-  "item.customdiscs.olibattle.desc": "Makai Symphon - Dragon Castle",
 
   "item.customdiscs.atlas": "§6Atlas",
   "item.customdiscs.glove": "§2Glove",
@@ -29,16 +11,33 @@
   "item.customdiscs.harmony": "§dHarmony",
   "item.customdiscs.edge": "§5Edge",
 
-  "item.customdiscs.shiny_voucher": "Shiny Voucher",
-  "item.customdiscs.move_voucher": "Move Voucher",
-  "item.customdiscs.iv_voucher": "IV Voucher",
-  "item.customdiscs.ev_voucher": "EV Voucher",
   "item.customdiscs.enc_unc_voucher": "Uncommon Encounter Voucher",
   "item.customdiscs.enc_ult_voucher": "Ultra Rare Encounter Voucher",
   "item.customdiscs.enc_rare_voucher": "Rare Encounter Voucher",
   "item.customdiscs.enc_com_voucher": "Common Encounter Voucher",
+  "item.customdiscs.move_voucher": "Common Encounter Voucher",
+
+  "item.customdiscs.counter_atlas": "§6Atlas",
+  "item.customdiscs.counter_glove": "§2Glove",
+  "item.customdiscs.counter_disc": "§7Disc",
+  "item.customdiscs.counter_industrial": "§8Industrial",
+  "item.customdiscs.counter_tranquil": "§1Tranquil",
+  "item.customdiscs.counter_distortion": "§4Distortion",
+  "item.customdiscs.counter_harmony": "§dHarmony",
+  "item.customdiscs.counter_edge": "§5Edge",
 
   "item.customdiscs.casino_card": "Casino Card",
+  "item.customdiscs.ranger_card": "Ranger Card",
+  "item.customdiscs.goldgear_card": "Gold Gear Card",
+
+  "item.customdiscs.diamond_charm": "Diamond Charm",
+  "item.customdiscs.pearl_charm": "Pearl Charm",
+  "item.customdiscs.sinister_charm": "Sinister Charm",
+
+  "item.customdiscs.gamma_pin": "Gamma Pin",
+  "item.customdiscs.missile_pin": "Missile Pin",
+  "item.customdiscs.counter_relic_coin": "Relic Coin",
+  "item.customdiscs.counter_diamond": "Diamond",
 
   "itemgroup.customdisc": "Custom Discs"
 

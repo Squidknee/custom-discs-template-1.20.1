@@ -13,6 +13,10 @@ public class ModTags {
                 createTag("vouchers");
         public static final TagKey<Item> CASINO =
                 createTag("casino");
+        public static final TagKey<Item> OTHER =
+                createTag("other");
+        public static final TagKey<Item> COUNTERFEIT =
+                createTag("counterfeit");
         private static TagKey<Item> createTag(String name){
             return TagKey.of(RegistryKeys.ITEM, new Identifier(CustomDiscs.MOD_ID, name));
         }

@@ -14,20 +14,8 @@ import net.minecraft.item.Item;
 import net.syd.customdiscs.sound.ModSounds;
 
 public class ModItems {
-    public static final Item LOBBY = registerItem("lobby",
-           new MusicDiscItem(7, ModSounds.LOBBY_MUSIC, new FabricItemSettings().maxCount(1),111));
-    public static final Item TECHNO = registerItem("techno",
-            new MusicDiscItem(7, ModSounds.TECHNO_MUSIC, new FabricItemSettings().maxCount(1),50));
-    public static final Item CAFE = registerItem("cafe",
-            new MusicDiscItem(7, ModSounds.CAFE_MUSIC, new FabricItemSettings().maxCount(1),160));
     public static final Item CORP = registerItem("corp",
             new MusicDiscItem(7, ModSounds.CORP_MUSIC, new FabricItemSettings().maxCount(1),110));
-    public static final Item CASTLE = registerItem("castle",
-            new MusicDiscItem(7, ModSounds.CASTLE_MUSIC, new FabricItemSettings().maxCount(1),130));
-    public static final Item GYMBATTLE = registerItem("gymbattle",
-            new MusicDiscItem(7, ModSounds.GYMBATTLE_MUSIC, new FabricItemSettings().maxCount(1),336));
-    public static final Item OLIBATTLE = registerItem("olibattle",
-            new MusicDiscItem(7, ModSounds.OLIBATTLE_MUSIC, new FabricItemSettings().maxCount(1),163));
 
     public static final Item ATLAS = registerItem("atlas", new Item(new FabricItemSettings()));
     public static final Item GLOVE = registerItem("glove", new Item(new FabricItemSettings()));
@@ -37,18 +25,36 @@ public class ModItems {
     public static final Item DISTORTION = registerItem("distortion", new Item(new FabricItemSettings()));
     public static final Item HARMONY = registerItem("harmony", new Item(new FabricItemSettings()));
     public static final Item EDGE = registerItem("edge", new Item(new FabricItemSettings()));
-    public static final Item SHINYVOUCHER = registerItem("shiny_voucher", new Item(new FabricItemSettings()));
-    public static final Item MOVESETVOUCHER = registerItem("move_voucher", new Item(new FabricItemSettings()));
-    public static final Item IVVOUCHER = registerItem("iv_voucher", new Item(new FabricItemSettings()));
-    public static final Item EVVOUCHER = registerItem("ev_voucher", new Item(new FabricItemSettings()));
     public static final Item ENCUNCVOUCHER = registerItem("enc_unc_voucher", new Item(new FabricItemSettings()));
     public static final Item ENCULTVOUCHER = registerItem("enc_ult_voucher", new Item(new FabricItemSettings()));
     public static final Item ENCRAREVOUCHER = registerItem("enc_rare_voucher", new Item(new FabricItemSettings()));
     public static final Item ENCCOMVOUCHER = registerItem("enc_com_voucher", new Item(new FabricItemSettings()));
 
+    public static final Item MOVEVOUCHER = registerItem("move_voucher", new Item(new FabricItemSettings()));
+
+    public static final Item CASINOCOIN = registerItem("casino_coin", new Item(new FabricItemSettings()));
     public static final Item CASINOCARD = registerItem("casino_card", new Item(new FabricItemSettings()));
+    public static final Item RANGERCARD = registerItem("ranger_card", new Item(new FabricItemSettings()));
+    public static final Item GOLDGEARCARD = registerItem("goldgear_card", new Item(new FabricItemSettings()));
 
+    public static final Item DIAMONDCHARM = registerItem("diamond_charm", new Item(new FabricItemSettings()));
+    public static final Item PEARLCHARM = registerItem("pearl_charm", new Item(new FabricItemSettings()));
+    public static final Item SINISTERCHARM = registerItem("sinister_charm", new Item(new FabricItemSettings()));
 
+    public static final Item GAMMAPIN = registerItem("gamma_pin", new Item(new FabricItemSettings()));
+    public static final Item MISSILEPIN = registerItem("missile_pin", new Item(new FabricItemSettings()));
+
+    public static final Item COUNTERRELICCOIN = registerItem("counter_relic_coin", new Item(new FabricItemSettings()));
+    public static final Item COUNTERDIAMOND = registerItem("counter_diamond", new Item(new FabricItemSettings()));
+
+    public static final Item COUNTERATLAS = registerItem("counter_atlas", new Item(new FabricItemSettings()));
+    public static final Item COUNTERGLOVE = registerItem("counter_glove", new Item(new FabricItemSettings()));
+    public static final Item COUNTERDISC = registerItem("counter_disc", new Item(new FabricItemSettings()));
+    public static final Item COUNTERINDUSTRIAL = registerItem("counter_industrial", new Item(new FabricItemSettings()));
+    public static final Item COUNTERTRANQUIL = registerItem("counter_tranquil", new Item(new FabricItemSettings()));
+    public static final Item COUNTERDISTORTION = registerItem("counter_distortion", new Item(new FabricItemSettings()));
+    public static final Item COUNTERHARMONY = registerItem("counter_harmony", new Item(new FabricItemSettings()));
+    public static final Item COUNTEREDGE = registerItem("counter_edge", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CustomDiscs.MOD_ID, name), item);

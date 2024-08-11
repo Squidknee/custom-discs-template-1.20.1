@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "customdiscs:counter_atlas",
+    "customdiscs:counter_glove",
+    "customdiscs:counter_disc",
+    "customdiscs:counter_industrial",
+    "customdiscs:counter_tranquil",
+    "customdiscs:counter_distortion",
+    "customdiscs:counter_harmony",
+    "customdiscs:counter_edge",
+    "customdiscs:counter_diamond",
+    "customdiscs:counter_relic_coin"
+  ]
+}
