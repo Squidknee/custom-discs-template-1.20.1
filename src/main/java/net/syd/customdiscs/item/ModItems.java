@@ -56,6 +56,8 @@ public class ModItems {
     public static final Item COUNTERHARMONY = registerItem("counter_harmony", new Item(new FabricItemSettings()));
     public static final Item COUNTEREDGE = registerItem("counter_edge", new Item(new FabricItemSettings()));
 
+    public static final Item BLACKJACKDECK = registerItem("blackjack_deck", new Blackjack(new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CustomDiscs.MOD_ID, name), item);
     }

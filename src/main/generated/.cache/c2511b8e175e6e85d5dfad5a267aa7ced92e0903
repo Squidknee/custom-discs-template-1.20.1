@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-11T17:19:18.1183057	custom-discs/Model Definitions
+// 1.20.1	2024-09-30T21:05:34.5434065	custom-discs/Model Definitions
 6835035f1b00335409f183e62b2423b0692911f0 assets\customdiscs\models\item\missile_pin.json
 812eda1aac87aa5d48c0ed42a9d7910b53ae2016 assets\customdiscs\models\item\counter_industrial.json
 3111cf275b20245ca528b1406ab3d88bfc09193d assets\customdiscs\models\item\counter_edge.json
@@ -12,13 +12,14 @@ a3e5d3ffcbad05e05dac5350752ab8a2ac4d5129 assets\customdiscs\models\item\counter_
 3a6745978f585a0a3a0c3ac6226fafca97d04d05 assets\customdiscs\models\item\counter_disc.json
 848811febf4e0d9e5bc508b0a83b66f98327d883 assets\customdiscs\models\item\enc_rare_voucher.json
 675f0fd3000c6efe73b20b0bb03b80f8bf0a183c assets\customdiscs\models\item\counter_glove.json
+8b274eef80c45b5a928dbc542515a1b53fd44878 assets\customdiscs\models\item\blackjack_deck.json
 031870389e4f092aeefd8af42e5723ca3c7c1b0e assets\customdiscs\models\item\diamond_charm.json
 033a1e9467a959f555973fd2e905f3b7b5b6fe8d assets\customdiscs\models\item\counter_atlas.json
 eef0399120a1af17600f31e5a621838198628ddb assets\customdiscs\models\item\counter_relic_coin.json
 61be7cba49887958d242f1b751284b66b162a472 assets\customdiscs\models\item\corp.json
 058af966972ee9c753f1873bdecc1e4c68e8c33c assets\customdiscs\models\item\goldgear_card.json
-c8d5d0d2d7455ced528ed6694fc8df76cb3fbf41 assets\customdiscs\models\item\ranger_card.json
 76ac4772f4409c100ab262bd4f036cff8afa2f86 assets\customdiscs\models\item\enc_com_voucher.json
+c8d5d0d2d7455ced528ed6694fc8df76cb3fbf41 assets\customdiscs\models\item\ranger_card.json
 e928e21575e6eb084f83e532428cbceb78589b9b assets\customdiscs\models\item\counter_distortion.json
 29b3e8c1dba23fbf9e487c92d5a256fe0f6f7223 assets\customdiscs\models\item\enc_ult_voucher.json
 2c06862785ecd00a1100e321ccfad61a0fd84d59 assets\customdiscs\models\item\counter_tranquil.json

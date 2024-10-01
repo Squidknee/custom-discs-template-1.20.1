@@ -41,6 +41,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MOVEVOUCHER);
                         entries.add(ModItems.CASINOCARD);
                         entries.add(ModItems.CASINOCOIN);
+                        entries.add(ModItems.BLACKJACKDECK);
                         entries.add(ModItems.RANGERCARD);
                         entries.add(ModItems.GOLDGEARCARD);
                         entries.add(ModItems.DIAMONDCHARM);

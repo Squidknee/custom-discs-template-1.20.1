@@ -36,6 +36,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.EDGE);
         getOrCreateTagBuilder(ModTags.Items.CASINO)
                 .add(ModItems.CASINOCARD);
+        getOrCreateTagBuilder(ModTags.Items.CASINO)
+                .add(ModItems.BLACKJACKDECK);
         getOrCreateTagBuilder(ModTags.Items.VOUCHER)
                 .add(ModItems.ENCCOMVOUCHER);
         getOrCreateTagBuilder(ModTags.Items.VOUCHER)

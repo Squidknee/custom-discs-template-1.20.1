@@ -25,6 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENCUNCVOUCHER, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOVEVOUCHER, Models.GENERATED);
         itemModelGenerator.register(ModItems.CASINOCOIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACKJACKDECK, Models.GENERATED);
         itemModelGenerator.register(ModItems.RANGERCARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLDGEARCARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.DIAMONDCHARM, Models.GENERATED);

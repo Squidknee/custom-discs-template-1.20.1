@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "customdiscs:casino_card",
+    "customdiscs:blackjack_deck",
     "customdiscs:casino_coin"
   ]
 }
